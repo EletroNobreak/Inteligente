@@ -59,16 +59,20 @@ nav ul li a:hover {
 }
 
 /* --- SEÇÃO HERO (CAPA) --- */
+
+
 .hero {
-    background-color: #white;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Fotos/Capa2.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white; /* Alterado para branco para destacar melhor sobre o fundo */
     padding: 0 20px;
 }
 
@@ -135,6 +139,12 @@ h2 {
     transition: transform 0.3s;
 }
 
+/* --- tamanho das fotos do produtos kaise --- */
+.kaise {
+    height: 180px;
+}
+
+
 .card:hover {
     transform: translateY(-5px);
 }
@@ -148,6 +158,7 @@ h2 {
     font-size: 3rem;
     color: #ffcc00;
 }
+
 
 /* --- RODAPÉ DE CONTATO --- */
 footer {
